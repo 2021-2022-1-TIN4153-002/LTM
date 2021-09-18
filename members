@@ -8,4 +8,10 @@ Bổ sung danh sách thành viên
 7.Lê ĐÌnh Huy
 8.Hồ Tuấn Vũ 
 9.Dương Chí Bình Minh
-10.
+10. Lê Hồng Ân
+11. 
+
+
+git config --global user.email "18T1021008@husc.edu.vn "  
+  git config --global user.name "lhan1809" 
+
