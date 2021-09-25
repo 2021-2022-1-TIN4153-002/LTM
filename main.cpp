@@ -1,14 +1,23 @@
 #include "main.h"
 
+DWORD MyThread(LPVOID lParam){
+  printf("\n[IN MYTHREAD] - TID %d\n",GetCurrentThreadId());
+  while (1){
+    Sleep(100);
+  }
+  return 1;
+}
 
 int main(){
 
   printf("CURRENT TIME: %s\n",Time2String().c_str());
+  printf("MAIN THREAD ID: %d\n",GetCurrentThreadId());
 
   if (!InitWinsock()) return -1;
 
-  printf("**** WELCOME VSCODE - SOCKET\n");
-  for (int i = 0; i < 5; ++ i) printf("[%d] ---\n",i);
+  printf("**** WELCOME VSCODE - MULTITHREAD\n");
+
+  CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)MyThread,NULL,0,NULL);  
 
   printf("Enter to exit:");
   getchar();
