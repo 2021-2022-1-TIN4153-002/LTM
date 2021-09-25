@@ -5,7 +5,7 @@
 #include <windows.h>
 
 int main(){
-    printf("WELCOME LE DUC THANG\n");
+    printf("WELCOME LDTHANG\n");
     printf("THU MUC CA NHAN\n");
     return 1;
 }
