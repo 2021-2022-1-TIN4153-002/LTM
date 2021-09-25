@@ -8,7 +8,7 @@ int main(){
   if (!InitWinsock()) return -1;
 
   printf("**** WELCOME VSCODE - SOCKET\n");
-  for (int i = 0; i < 5; ++ i) printf("---\n");
+  for (int i = 0; i < 5; ++ i) printf("[%d] ---\n",i);
 
   CleanWinsock();
   printf("\n*** EXIT APP ***\n");
