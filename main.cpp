@@ -1,9 +1,11 @@
 #include "main.h"
 
 DWORD MyThread(LPVOID lParam){
-  printf("\n[IN MYTHREAD] - TID %d\n",GetCurrentThreadId());
+  DWORD tid = GetCurrentThreadId();
+  printf("\n[IN MYTHREAD] - TID %d\n",tid);
   while (1){
-    Sleep(100);
+    printf("TID [%d] RUNNING %d\n",tid,GetTickCount());
+    Sleep(1000);//1000ms -> 1s
   }
   return 1;
 }
@@ -17,7 +19,7 @@ int main(){
 
   printf("**** WELCOME VSCODE - MULTITHREAD\n");
 
-  CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)MyThread,NULL,0,NULL);  
+  CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)MyThread,NULL,0,NULL);
 
   printf("Enter to exit:");
   getchar();

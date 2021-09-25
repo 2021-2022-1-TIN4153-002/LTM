@@ -3,3 +3,5 @@ Menu Terminal/Run Build Task
 -> main.exe
 
 Windows _< Undocument
+
+Tools (thay cho Task Manager): Process Hacker
