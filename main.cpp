@@ -1,12 +1,16 @@
 #include "main.h"
 
-DWORD MyThread(LPVOID lParam){
+DWORD MainThread(LPVOID lParam){
+  bool* pIsRunning = (bool*)lParam;
   DWORD tid = GetCurrentThreadId();
-  printf("\n[IN MYTHREAD] - TID %d\n",tid);
-  while (1){
+  printf("\n[MAIN THREAD] - TID %d - START\n",tid);
+  
+  while (*pIsRunning){
     printf("TID [%d] RUNNING %d\n",tid,GetTickCount());
     Sleep(1000);//1000ms -> 1s
   }
+
+  printf("\n[MAIN THREAD] - TID %d - END\n",tid);
   return 1;
 }
 
@@ -15,14 +19,18 @@ int main(){
   printf("CURRENT TIME: %s\n",Time2String().c_str());
   printf("MAIN THREAD ID: %d\n",GetCurrentThreadId());
 
+  bool isMainRuning = true;
+
   if (!InitWinsock()) return -1;
 
   printf("**** WELCOME VSCODE - MULTITHREAD\n");
 
-  CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)MyThread,NULL,0,NULL);
-
+  HANDLE hMainThread = CreateThread(NULL,0,(LPTHREAD_START_ROUTINE)MainThread,&isMainRuning,0,NULL);
+  
   printf("Enter to exit:");
   getchar();
+  isMainRuning = false;
+  WaitForSingleObject(hMainThread,INFINITE);
 
   CleanWinsock();
   printf("\n*** EXIT APP ***\n");
