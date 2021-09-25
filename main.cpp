@@ -7,9 +7,9 @@ int main(){
 
   if (!InitWinsock()) return -1;
 
-  printf("**** WELCOME VSCODE! Toi la NVT\n");
-  for (int i = 0; i < 5; ++ i) printf("---\n");
-  
+  printf("**** WELCOME VSCODE - SOCKET\n");
+  for (int i = 0; i < 5; ++ i) printf("[%d] ---\n",i);
+
   CleanWinsock();
   printf("\n*** EXIT APP ***\n");
   
