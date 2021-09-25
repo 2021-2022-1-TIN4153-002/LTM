@@ -5,3 +5,5 @@ Menu Terminal/Run Build Task
 Windows _< Undocument
 
 Tools (thay cho Task Manager): Process Hacker
+
+Download - Install
