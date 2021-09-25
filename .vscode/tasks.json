@@ -8,12 +8,17 @@
 			"args": [
 				"-o",
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"${workspaceFolder}\\hhp\\main.exe",
 				"${workspaceFolder}\\hhp\\main.cpp",
 =======
 				"${workspaceFolder}\\VVDUNG\\main.exe",
 				"${workspaceFolder}\\VVDUNG\\main.cpp",
 >>>>>>> 3d4b96c01a32cb2e3d1cb6831bc401a21f37ec4a
+=======
+				"${workspaceFolder}\\main.exe",
+				"${workspaceFolder}\\main.cpp",
+>>>>>>> 09e2610933215b6b83188fa7415bf1647dafefc2
 				"-lws2_32"
 			],
 			"options": {

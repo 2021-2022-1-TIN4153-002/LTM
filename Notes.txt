@@ -6,4 +6,4 @@ Windows _< Undocument
 
 Tools (thay cho Task Manager): Process Hacker
 
-Cấu hình tasks.json để sử dụng thư mục riêng
+Download - Install
