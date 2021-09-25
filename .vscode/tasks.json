@@ -7,8 +7,8 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\main.exe",
-				"${workspaceFolder}\\main.cpp",
+				"${workspaceFolder}\\hhp\\main.exe",
+				"${workspaceFolder}\\hhp\\main.cpp",
 				"-lws2_32"
 			],
 			"options": {
