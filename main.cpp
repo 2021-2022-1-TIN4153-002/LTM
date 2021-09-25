@@ -10,6 +10,9 @@ int main(){
   printf("**** WELCOME VSCODE - SOCKET\n");
   for (int i = 0; i < 5; ++ i) printf("[%d] ---\n",i);
 
+  printf("Enter to exit:");
+  getchar();
+
   CleanWinsock();
   printf("\n*** EXIT APP ***\n");
   
