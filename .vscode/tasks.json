@@ -7,8 +7,8 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\VVDUNG\\main.exe",
-				"${workspaceFolder}\\VVDUNG\\main.cpp",
+				"${workspaceFolder}\\NVTUAN\\main.exe",
+				"${workspaceFolder}\\NVTUAN\\main.cpp",
 				"-lws2_32"
 			],
 			"options": {
