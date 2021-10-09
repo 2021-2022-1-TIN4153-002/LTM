@@ -7,12 +7,13 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\LDTHANG\\main.exe",
-				"${workspaceFolder}\\LDTHANG\\main.cpp",
-				"${workspaceFolder}\\LDTHANG\\MainThread.cpp", 
-				"${workspaceFolder}\\_Common\\Socket.cpp",
+				"${workspaceFolder}\\LEMI\\main.exe",
+				"${workspaceFolder}\\LEMI\\main.cpp",
+				"${workspaceFolder}\\LEMI\\MainThread.cpp",
+				"${workspaceFolder}\\_Common\\Utils.cpp",
 				"${workspaceFolder}\\_Common\\Thread.cpp",
-				"${workspaceFolder}\\_Common\\Utils.cpp",	
+				"${workspaceFolder}\\_Common\\Socket.cpp",
+				
 				"-lws2_32"
 			],
 			"options": {
@@ -44,7 +45,7 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compiler: \"C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe\""
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
 		}
 	]
 }
