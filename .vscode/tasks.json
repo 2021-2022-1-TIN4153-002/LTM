@@ -7,13 +7,8 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\VVDUNG\\main.exe",
-				"${workspaceFolder}\\VVDUNG\\main.cpp",
-				"${workspaceFolder}\\VVDUNG\\MainThread.cpp",
-				"${workspaceFolder}\\_Common\\Utils.cpp",
-				"${workspaceFolder}\\_Common\\Thread.cpp",
-				"${workspaceFolder}\\_Common\\Socket.cpp",
-				
+				"${workspaceFolder}\\main.exe",
+				"${workspaceFolder}\\main.cpp",
 				"-lws2_32"
 			],
 			"options": {
@@ -27,25 +22,6 @@
 				"isDefault": true
 			},
 			"detail": "compiler: mingw64 g++.exe"
-		},
-		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
-			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
-			"args": [
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
-			],
-			"options": {
-				"cwd": "${fileDirname}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": "build",
-			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
 		}
 	]
 }

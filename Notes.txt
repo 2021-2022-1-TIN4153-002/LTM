@@ -1,15 +1,3 @@
-2. 
- - Thư mục _Common chứa các lớp cơ bản dùng trong các dự án
- CUtils: Các tiện ích
- CThread: Lớp đóng gói về Thread
- CSocket: Lớp cơ bản của Socket
-
- - Thư mục VVDUNG chứa các chương trình mẫu, dùng để tham khảo cho các phần thực hành
-
- - Mỗi thành viên tạo mỗi thư mục riêng để viết và biên dịch mã c/c++
-
- 
-
 1. Xây dựng chương trình
 Menu Terminal/Run Build Task
 -> main.exe
