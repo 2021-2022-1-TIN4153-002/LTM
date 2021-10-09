@@ -7,8 +7,12 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\main.exe",
-				"${workspaceFolder}\\main.cpp",
+				"${workspaceFolder}\\LDTHANG\\main.exe",
+				"${workspaceFolder}\\LDTHANG\\main.cpp",
+				"${workspaceFolder}\\LDTHANG\\MainThread.cpp",
+				"${workspaceFolder}\\_Common\\Socket.cpp",	
+				"${workspaceFolder}\\_Common\\Thread.cpp",	
+				"${workspaceFolder}\\_Common\\Utils.cpp",	
 				"-lws2_32"
 			],
 			"options": {
