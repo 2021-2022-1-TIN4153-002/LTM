@@ -7,8 +7,12 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\main.exe",
-				"${workspaceFolder}\\main.cpp",
+				"${workspaceFolder}\\NVTUAN\\main.exe",
+				"${workspaceFolder}\\NVTUAN\\main.cpp",
+				"${workspaceFolder}\\NVTUAN\\MainThread.cpp",
+				"${workspaceFolder}\\_Common\\Socket.cpp",
+				"${workspaceFolder}\\_Common\\Thread.cpp",
+				"${workspaceFolder}\\_Common\\Utils.cpp",
 				"-lws2_32"
 			],
 			"options": {
@@ -22,6 +26,25 @@
 				"isDefault": true
 			},
 			"detail": "compiler: mingw64 g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: \"C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe\""
 		}
 	]
 }
