@@ -12,7 +12,7 @@
 				"${workspaceFolder}\\LDTHANG\\MainThread.cpp", 
 				"${workspaceFolder}\\_Common\\Socket.cpp",
 				"${workspaceFolder}\\_Common\\Thread.cpp",
-				"${workspaceFolder}\\_Common\\Utils.cpp",
+				"${workspaceFolder}\\_Common\\Utils.cpp",	
 				"-lws2_32"
 			],
 			"options": {
