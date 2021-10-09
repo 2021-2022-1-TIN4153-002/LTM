@@ -5,6 +5,6 @@
 #include <windows.h>
 
 int main(){
-    printf("Hello class");
+    printf("Hello class1");
     return 1;
 }
