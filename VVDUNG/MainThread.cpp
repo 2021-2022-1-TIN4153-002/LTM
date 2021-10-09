@@ -13,7 +13,7 @@ void CMainThread::OnInit(){
     printf("CMainThread::OnInit() : %d\n",m_dwTID);
 }
 void CMainThread::OnExit(){
-    printf("CMainThread::OnExit() : %d",m_dwTID);
+    printf("CMainThread::OnExit() : %d\n",m_dwTID);
 };
 
 void CMainThread::OnLoop(){
