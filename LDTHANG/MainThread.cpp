@@ -22,3 +22,5 @@ void CMainThread::OnLoop(){
     printf("CMainThread::OnLoop() : %d %u [%d]\n",m_dwTID,GetTickCount(), i);
     if (i > 10) ExitThread();
 }
+
+
