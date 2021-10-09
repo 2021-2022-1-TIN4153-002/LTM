@@ -7,9 +7,9 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\VVDUNG\\main.exe",
-				"${workspaceFolder}\\VVDUNG\\main.cpp",
-				"${workspaceFolder}\\VVDUNG\\MainThread.cpp",
+				"${workspaceFolder}\\LEMI\\main.exe",
+				"${workspaceFolder}\\LEMI\\main.cpp",
+				"${workspaceFolder}\\LEMI\\MainThread.cpp",
 				"${workspaceFolder}\\_Common\\Utils.cpp",
 				"${workspaceFolder}\\_Common\\Thread.cpp",
 				"${workspaceFolder}\\_Common\\Socket.cpp",
