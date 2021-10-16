@@ -4,5 +4,3 @@
 #include "../_Common/Socket.h"
 
 #include "MainThread.h"
-#include "Windows.h"
-
