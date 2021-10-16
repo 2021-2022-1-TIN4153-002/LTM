@@ -7,6 +7,7 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
+<<<<<<< HEAD
 
 
 
@@ -20,6 +21,14 @@
 				
 				
 
+=======
+				"${workspaceFolder}\\DNLINH\\main.exe",
+				"${workspaceFolder}\\DNLINH\\main.cpp",
+				"${workspaceFolder}\\DNLINH\\MainThread.cpp",
+				"${workspaceFolder}\\_Common\\Utils.cpp",
+				"${workspaceFolder}\\_Common\\Thread.cpp",
+				"${workspaceFolder}\\_Common\\Socket.cpp",
+>>>>>>> 34e46bdbf5188366b80db56af7fbe669ea08c0bb
 				"-lws2_32"
 			],
 			"options": {

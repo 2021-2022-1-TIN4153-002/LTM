@@ -18,7 +18,7 @@ void CMainThread::OnExit(){
 
 void CMainThread::OnLoop(){
     static UINT i = 0;
-    ++i;   
-     printf("CMainThread::OnLoop() : %d %u [%d]\n",m_dwTID,GetTickCount64(), i);
+    ++i;
+    printf("CMainThread::OnLoop() : %d %u [%d]\n",m_dwTID,GetTickCount64(), i);
     if (i > 10) ExitThread();
 }
