@@ -7,9 +7,9 @@
 			"command": "g++.exe",
 			"args": [
 				"-o",
-				"${workspaceFolder}\\NATAI\\main.exe",
-				"${workspaceFolder}\\NATAI\\main.cpp",
-				"${workspaceFolder}\\NATAI\\MainThread.cpp",
+				"${workspaceFolder}\\HBLDIEN\\main.exe",
+				"${workspaceFolder}\\HBLDIEN\\main.cpp",
+				"${workspaceFolder}\\HBLDIEN\\MainThread.cpp",
 				"${workspaceFolder}\\_Common\\Utils.cpp",
 				"${workspaceFolder}\\_Common\\Thread.cpp",
 				"${workspaceFolder}\\_Common\\Socket.cpp",
