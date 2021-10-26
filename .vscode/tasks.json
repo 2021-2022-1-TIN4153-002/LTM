@@ -9,9 +9,9 @@
 				"-o",
 
 
-				"${workspaceFolder}\\hhp\\main.exe",
-				"${workspaceFolder}\\hhp\\main.cpp",
-				"${workspaceFolder}\\hhp\\MainThread.cpp",
+				"${workspaceFolder}\\NVTUAN\\main.exe",
+				"${workspaceFolder}\\NVTUAN\\main.cpp",
+				"${workspaceFolder}\\NVTUAN\\MainThread.cpp",
 				"${workspaceFolder}\\_Common\\Socket.cpp",
 				"${workspaceFolder}\\_Common\\Thread.cpp",
 				"${workspaceFolder}\\_Common\\Utils.cpp",
